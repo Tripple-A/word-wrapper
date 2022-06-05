@@ -23,3 +23,13 @@ your@pc:~$ bundle install
 ```
 rspec wrap.spec.rb
 ```
+
+## To play around
+```
+irb
+load './wrap.rb'
+```
+
+## A sneak peek
+![Some examples](/wrapper.png)
+
