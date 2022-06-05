@@ -6,6 +6,7 @@ Clone the Repository
 
 ```Shell
 your@pc:~$ git clone https://github.com/Tripple-A/word-wrapper.git
+your@pc:~$ cd word-wrapper
 ```
 
 Install all dependencies
@@ -26,8 +27,8 @@ rspec wrap.spec.rb
 
 ## To play around
 ```
-irb
-load './wrap.rb'
+your@pc:~$ irb
+your@pc:~$ load './wrap.rb'
 ```
 
 ## A sneak peek
