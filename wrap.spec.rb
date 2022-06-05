@@ -28,11 +28,5 @@ describe 'Wrapper class' do
 
       expect(result).to eq("Try\nsomethi\nng now")
     end
-
-    it 'merges the remainder of the word to other words on new line' do
-      result = Wrapper.wrap("a\tb\tc", 3)
-
-      expect(result).to eq("Try\nsomethi\nng now")
-    end
   end
 end
